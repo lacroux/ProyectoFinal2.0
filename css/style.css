@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'El Messiri', sans-serif;
+    line-height: 1.5;
+}
+
+/* Imagen logo */
+.image-mama img {
+    width: 30%;
+    height: 300px;
+    border-radius: 70%;
+    
+}
+
+.image-mama {
+    position: relative;
+    text-align: center;
+}
+
+
+/* estilos texto */
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size:20px;
+    background-color: rgb(245, 226, 226);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+
+h2 {   
+    font-size:30px;
+    margin-top: 50px;
+}
+
+h3 {   
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+}
+
+h4 {
+    display: flex;
+}
+
+/* Navbar */
+.navbar-main {
+    display: flex;
+    justify-content:right;
+    background-color:rgb(245, 226, 226);
+    margin-top: 2px;
+}
+
+.carousel-inner img {
+    display: flex;
+    justify-content: center;
+   
+}
+
+p {
+    font-size:20px;
+    margin-bottom: 50px;
+}
+
+.nosotros {
+    text-align:center;
+}
+
+/* Tarjetas */
+.container-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.container-tarjetas {
+    display: flex;
+    justify-content:space-around;
+}
+
+/* Margin equipo / historia */
+.carousel-inner {
+    margin-bottom: 20px;
+}
+
+/* Galeria */
+#galeria .col-lg-4 {
+    margin: 0 !important; 
+    padding: 25px;
+}
+
+#galeria img {
+    width: 100%;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;   
+}
+
+#galeria img:hover {
+    border: 5px solid #f7f7f7;
+}
+
+/* Imagenes envios */
+.image-envios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 80px;
+}
+
+.panel {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.imagen-pagos img {
+    width: 150px;
+    height: 110px;
+}
+
+/* Logo de whatpsapp seguir en resto de pagina */
+/* Boton redirigir a contacto de whatsapp */
+.btn-whatsapp {
+    display:block;
+    width:40px;
+    height:40px;
+    color:#fff;
+    position: fixed;
+    right:10px;
+    bottom:100px;
+    border-radius:50%;
+    line-height:190px;
+    text-align:center;
+    z-index:999;
+}
+
+.btn-whatsapp img {
+    width: 60px;
+    height: 60px;
+    opacity: 80%;
+}
+
+/* Transformacion Logo Whatsapp */
+.btn-whatsapp img:hover {
+    transition: all 2s;
+    transform: scale(1.5);
+}
+
+/* Maps */
+.video {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.subtitulo {
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 226, 226);
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+
+/* Transformacion  imagenes */
+.border-bottom img:hover {
+    transition: all 2s;
+    transform: scale(1.5);
+}
+
+.image-hover:hover {
+    transition: all 2s;
+    transform: scale(1.5);
+}
+
+/* Medidas Publicidad dos */
+
+.publicidad-dos {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;  
+}
+
+.justify-content-around {
+    background-color:rgb(245, 226, 226);
+}
+
+.border-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+/* Cuadro inicio sesión */
+
+html,body { 
+	height: 100%;
+}
+
+.global-container{
+	height:60%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+form{
+	padding-top: 10px;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+.card-title{ 
+    font-weight:300; 
+}
+
+.btn{
+	font-size: 14px;
+	margin-top:20px;
+}
+
+
+.login-form{ 
+	width:330px;
+	margin:20px;
+}
+
+.sign-up{
+	text-align:center;
+	padding:20px 0 0;
+}
+
+.alert{
+	margin-bottom:-30px;
+	font-size: 13px;
+	margin-top:20px;
+}
+
+.container-carrousel {
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+/* Seccion Contacto / Formulario */
+
+label, input[type="submit"]{
+	margin-top: 6px;
+}
+.btn:focus{
+	outline: none;
+}
+.ibody{
+	background-color: rgb(245, 226, 226);
+	border: 1px solid rgb(245, 226, 226);
+	border-radius: 8px;
+	margin: 30px auto;
+	width: 500px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+.jumbotron {
+	background-color: rgb(245, 226, 226);
+	border-radius: 8px 8px 0px 0px;
+	margin-bottom: 0px;
+	padding: 16px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+}
+
+.jumbotron h2{
+	color:black;
+	font-size: 25px;
+	text-align: center;
+	text-shadow: 0px 1px #fff;
+}
+
+.fcontacto{
+	padding: 14px;
+}
+
+.logito{
+	margin-bottom: 6px;
+	text-align: center;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: rgb(245, 226, 226);
+}
+
+/* Imagenes RSS - Transiciones */
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 10px;
+	
+}
+
+.redes-sociales img {
+	padding: 5px;
+	border-radius: 100%;
+	width: 50px;
+	transition: .3s ease all;
+}
+
+.redes-sociales img:hover {
+	transform: scale(1.2);
+}
+
+/* Footer */
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+    background: gray;
+    margin: 30px;
+}
+
+
+.footer-links {
+    background: rgb(245, 226, 226);
+    color: gray;
+    font-size: 16px;
+    padding: 35px 0;
+  }
+
+.footer-links a {
+    color: gray;
+}
+
+
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .footer-container ul {
+    list-style: none;
+    
+    margin: 0 auto;
+  }
+
+  .footer-links ul li {
+    line-height: 2.8;
+  }
+  
+  .footer {
+    background:rgb(245, 226, 226);
+    color: grey;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 20px;
+  }
+
+  @media (max-width: 700px) {
+
+    .menu-btn {
+      display: block;
+    }
+
+    .nav-main ul.nav-menu-right {
+      margin-right: 40px;
+    }
+
+
+  .footer-links .footer-container {
+     grid-template-columns: repeat(2, 1fr);
+  }
+  }
+
+ @media (max-width: 500px) {
+   .news-cards {
+     grid-template-columns: 1fr;
+   }
+
+   .news-cards imag {
+     height: 270px;
+
+   }
+
+   .cards-banner-one .content,
+   .cards-banner-two .content 
+   
+   {
+     width: 100%;
+     padding: 60px 20px;
+   }
+
+   .footer-links .footer-container {
+    grid-template-columns: 1fr;
+   }
+ }
+
+ @media (min-width: 300px) {
+
+     h5 {
+         padding-left: 42px;
+     }
+
+     .footer-container img {
+         width: 300px;
+         padding-right: 25px;
+     }
+
+     .btn-whatsapp {
+        padding-right: 120px;
+        margin-bottom: 35px;
+     }
+ }
+ 
+
+
