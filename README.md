@@ -1,4 +1,4 @@
-# ProyectoFinal2.0
+# Joyeria E&Mjoyeria
 
 
 <img width="920" height="614" alt="image" src="https://github.com/user-attachments/assets/c4fc6393-b9b1-48aa-84e8-fe11cb7fc782" />
