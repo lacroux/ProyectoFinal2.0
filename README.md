@@ -66,11 +66,11 @@ Asegúrate de mantener la estructura de carpetas:
 Abre el archivo index.html en cualquier navegador moderno.
 
 📧 Contacto
-Email: E&Mjoyeria@gmail.com
+Email: E&Mjoyeria_@gmail.com
 
-WhatsApp: +56 986538905
+WhatsApp: +56 9------
 
-Web: www.E&Mjoyeria.cl
+enlace: https://lacroux.github.io/ProyectoFinal2.0/
 
 Hecho con ❤️ y dedicación - 2022
 
